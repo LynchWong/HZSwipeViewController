@@ -1,5 +1,5 @@
 //
-//  SAContainerViewController.h
+//  HZSwipeViewController.h
 //  AccountingObjectiveC
 //
 //  Created by Lynch Wong on 5/19/15.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SAContainerViewController : UIViewController
+@interface HZSwipeViewController : UIViewController
 
 - (instancetype)initWithRearController:(UIViewController *)rearController contentController:(UIViewController *)contentController;
 

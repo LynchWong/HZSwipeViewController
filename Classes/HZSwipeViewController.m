@@ -6,9 +6,9 @@
 //  Copyright (c) 2015 Nobodyknows. All rights reserved.
 //
 
-#import "SAContainerViewController.h"
+#import "HZSwipeViewController.h"
 
-@interface SAContainerViewController ()
+@interface HZSwipeViewController ()
 
 @property (strong, nonatomic) UIViewController *contentController;
 @property (strong, nonatomic) UIViewController *rearController;
@@ -19,7 +19,7 @@
 
 @end
 
-@implementation SAContainerViewController
+@implementation HZSwipeViewController
 
 - (instancetype)init {
     return [self initWithRearController:nil contentController:nil];
